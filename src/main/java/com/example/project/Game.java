@@ -31,7 +31,6 @@ public class Game{
     public void play(){ //write your game logic here
         Scanner scanner = new Scanner(System.in);
 
-
         while(true){
             try {
                 Thread.sleep(100); // Wait for 1/10 seconds
@@ -42,8 +41,7 @@ public class Game{
 
      
             }
-            
-     
+                 
     }
 
     public void initialize(){
