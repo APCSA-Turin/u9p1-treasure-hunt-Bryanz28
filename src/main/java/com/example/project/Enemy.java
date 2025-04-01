@@ -3,7 +3,7 @@ package com.example.project;
 //Enemy only need constructor and getCoords() getRowCol()
 public class Enemy extends Sprite  { //child  of Sprite
     
-    public Enemy(int x, int y) {
+    public Enemy(int x, int y) { //constructor and intherits sprite
         super(x,y);
     }
 

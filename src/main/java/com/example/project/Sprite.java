@@ -1,6 +1,7 @@
 package com.example.project;
 
 public class Sprite {
+    //vareiables
     private int x, y;
     // Sprite constructor 
     public Sprite(int x, int y) {
@@ -8,18 +9,18 @@ public class Sprite {
         this.y = y;
     }
 
-    public int getX(){
+    public int getX(){ //returns x
         return x;
     }
 
-    public int getY(){
+    public int getY(){ //returns y
         return y;
     }
 
-    public void setX(int X){
+    public void setX(int X){ //sets x to X
         x=X;
     }
-    public void setY(int Y){
+    public void setY(int Y){ //sets y to Y
         y=Y;
     }
 
@@ -28,7 +29,7 @@ public class Sprite {
     }
 
     public String getRowCol(int size){ //returns the row and column of the sprite -> "[row][col]"
-        return "[" + (size-y-1) + "]" + "[" + x + "]";
+        return "[" + (size-y-1) + "]" + "[" + x + "]";  // concatenates the values of size-y-1 and x with the brackets
     }
     
 
